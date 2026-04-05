@@ -67,9 +67,22 @@ a {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   font-weight: 800;
   font-size: 1.15rem;
   color: var(--black);
+}
+
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.brand-text {
+  line-height: 1;
 }
 
 .nav-links {
@@ -106,6 +119,13 @@ a {
 
 .hero-content {
   max-width: 760px;
+}
+
+.hero-logo {
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 0 1rem;
+  display: block;
 }
 
 .eyebrow {

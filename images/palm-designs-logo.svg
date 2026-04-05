@@ -1,0 +1,36 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Palm Designs logo</title>
+  <desc id="logoDesc">Stylized Palm Designs script logo in green with black and gold accents.</desc>
+  <defs>
+    <linearGradient id="greenGradient" x1="200" y1="60" x2="900" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#66D12C"/>
+      <stop offset="1" stop-color="#1F9D55"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="6" stdDeviation="3" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Gold accent stroke behind text -->
+  <path d="M95 250C290 120 540 120 760 165C880 190 995 202 1110 182" stroke="#E0A600" stroke-width="20" stroke-linecap="round" opacity="0.95"/>
+
+  <!-- Underline swoosh -->
+  <path d="M125 282C278 310 502 283 706 236C826 208 944 194 1065 202" stroke="#0A0F0D" stroke-width="44" stroke-linecap="round"/>
+  <path d="M125 282C278 310 502 283 706 236C826 208 944 194 1065 202" stroke="url(#greenGradient)" stroke-width="26" stroke-linecap="round"/>
+
+  <!-- Wordmark -->
+  <g filter="url(#shadow)">
+    <text x="90" y="205" font-family="'Brush Script MT', 'Segoe Script', cursive" font-size="180" font-weight="700" fill="#0A0F0D" stroke="#0A0F0D" stroke-width="18" paint-order="stroke">
+      Palm Designs
+    </text>
+    <text x="90" y="205" font-family="'Brush Script MT', 'Segoe Script', cursive" font-size="180" font-weight="700" fill="url(#greenGradient)">
+      Palm Designs
+    </text>
+  </g>
+
+  <!-- Small sparkle accents -->
+  <g fill="#E0A600">
+    <path d="M62 286l8 20 20 8-20 8-8 20-8-20-20-8 20-8 8-20z"/>
+    <path d="M1060 112l7 16 16 7-16 7-7 16-7-16-16-7 16-7 7-16z"/>
+  </g>
+</svg>
